@@ -14,3 +14,5 @@ export interface Product extends BaseModel {
   isNew: boolean;
   tags: string[];
 }
+
+// Con omit podemos omitir las propiedades, campos o llaves que quieramos.
